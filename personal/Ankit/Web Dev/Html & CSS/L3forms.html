@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Forms</title>
+    <link rel="stylesheet" href="L10_stylingForms.css">
+</head>
+<body>
+        <!--FORMS-->
+  <form action="" method="post">
+        <h1>Contact Us</h1>
+        <div> Name <input placeholder="Enter your name" r equired type="text" name="username" id="name"> </div> 
+        <div> E-mail <input placeholder="Enter your E-mail" required type="text" name="usermail" id="email">  </div> 
+        <div> Comment <textarea placeholder="Write comments" name="usercomment" id="comment" cols="60" rows="10"></textarea> </div>
+        <div>Gender:
+    <select name="usergender" id="gender">
+        
+        <option value="">-Choose one-</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="transgender">Transgender</option>
+    </select>
+    </div>
+    <div class="classy">
+        Frontend: <input type="checkbox" name="skills" id="frontend">
+        Backend: <input type="checkbox" name="skills" id="backend">
+    </div>
+    <fieldset>
+        <legend>Mode of payment</legend>
+        Cash: <input type="radio" name="payment" id="cash">
+        Bank: <input type="radio" name="payment" id="bank">    
+    </fieldset>
+
+    <input type="submit" value="Submit" >
+        </form>
+
+
+</body>
+</html>

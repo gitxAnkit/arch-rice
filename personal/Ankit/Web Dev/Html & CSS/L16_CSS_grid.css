@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    background-color: rgb(32, 25, 25);
+    display: grid;
+    grid-template-columns: 600px 4fr 3fr;
+    grid-template-rows: 2fr 4fr ;;
+    grid-gap: 10px;
+}
+
+.box{
+      
+    /* width: 100px; */
+    /* height: 100px; */
+    background-color:rgb(98, 216, 139);
+    font: 100 2rem cursive;
+    color:white;
+    border: 3px solid red;
+}
+ /* BAKI PROJECT BANATE BANATE SEEKHUNGA */

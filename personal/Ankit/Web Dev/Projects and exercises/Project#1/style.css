@@ -1,0 +1,98 @@
+body{
+    background-image: url(/bgimg.webp);
+    margin: 0;
+    height: 110vh;;
+}
+header{
+    color: white;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight:600;
+    position: sticky;
+    top: 0;
+}
+.logobox{
+  
+    display: inline-block;
+    width: 250px;
+    font-size: 30px ;
+    
+}
+
+.navbox{
+   
+    display: inline-block;
+    width: 600px;
+    position: absolute;
+    right: 20px;
+    font-size: larger;
+}
+.navbox > a{
+    margin: 10px;
+    color: white;
+    text-decoration:none;
+    transition: all 0.5s;
+   
+}
+.navbox > a:hover{
+    color: salmon;
+    text-decoration:none;
+}
+#homie{
+    color: salmon;
+}
+.heading{
+    color: salmon;
+    font-size:80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:70px;
+    left: 70px;
+    width: 500px;
+}
+.heading +h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;;
+    position: relative;
+    left: 70px;
+    width: 500px;
+    top: 20px;
+
+}
+.heading+h3+p{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    position: relative;
+    top: 70px;
+    width: 400px;
+    word-spacing: 4px;
+    left: 70px;
+    font-size: 20px;
+}
+.btn{
+    background-color: salmon;
+    border:2px solid salmon;
+    width: 100px;
+    padding:15 px;
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    top: 70px;
+    left: 70px;
+    font-weight: 600;
+    cursor:pointer;
+    transition: all 0.5s;
+
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+footer{
+    font-family: 'Roboto Slab', serif;
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+    color: white;
+}

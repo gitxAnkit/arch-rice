@@ -1,0 +1,1 @@
+{"name":"Local: _01knapSack","url":"c:\\Users\\ankit\\OneDrive\\Desktop\\DSA\\Dynamic programming\\_01knapSack.java","tests":[{"id":1676206016575,"input":"5\n15 14 10 45 30\n2 5 1 3 4\n7","output":"75"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ankit\\OneDrive\\Desktop\\DSA\\Dynamic programming\\_01knapSack.java","group":"local","local":true}

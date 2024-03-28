@@ -1,0 +1,35 @@
+ p{
+    color:yellow;
+    font-family:monospace;
+    font-size: large;
+    font-weight:1500;
+    text-align:center;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 5px rgb(53, 53, 1);
+
+ } 
+ div{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-style:italic;
+    font-weight: 1000;
+    text-decoration:underline;
+    line-height: 40px;
+    text-shadow:0 0 2px rgba(0, 0, 0, 0.555);
+
+ }
+ h1{
+    text-align: center;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    color: rgb(10, 47, 255);
+    text-shadow:5px 5px 6px rgb(0, 0, 0); 
+    font-size:10vw;
+ } 
+ body{
+    background-image: url(/wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-attachment: fixed;
+    background-position: 0px 5px 10px;
+ }

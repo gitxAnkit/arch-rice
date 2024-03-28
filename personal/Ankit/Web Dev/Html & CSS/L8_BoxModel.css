@@ -1,0 +1,43 @@
+h1{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    text-transform:uppercase;
+    color:blue;
+    text-shadow:2px 2px 4px  black;
+    font-size:10vw;
+    font-style: italic;
+
+}
+p{
+    color:white;
+}
+body{
+    background-image: url(/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-attachment:fixed;
+    background-position: center;
+}
+ul{
+    list-style: circle inside;
+    list-style-image: url("icons8-bullet-64.png");   
+    list-style:none;
+}
+.small{
+    color:white;
+    border-top: 5px dotted blue;
+    border-left: 20px solid yellow;
+    border-bottom: 10px solid white;
+    border-right: 5px dashed beige;
+    width: 150px;
+    overflow:auto;
+    background-color: black;
+    padding:20px;
+    margin:50px 100px;
+}
+.ok{
+    background-color: crimson;
+    margin:20px;
+}
+h2{
+    border: 2px solid white;
+    padding: 10px;
+}

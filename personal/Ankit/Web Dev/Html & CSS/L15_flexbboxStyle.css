@@ -1,0 +1,20 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:pink;
+    
+}
+body{
+    margin:0;
+    display: flex;
+    border: 2px solid blue;
+    height: 80vh;
+    width: 80vw;
+    
+    /* for main/horizontal axis */   
+    /* justify-content:center;  */
+    /* align-items:center;
+    flex-direction:row-reverse; */
+    /* flex-wrap:wrap; */
+    flex-flow: column wrap;    /*is a shorthand property for setting both the flex-direction and flex-wrap properties. */ 
+}

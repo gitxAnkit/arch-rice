@@ -1,0 +1,65 @@
+.custom{
+    color: wheat;
+    background-color: black;
+}
+.special{
+    color: aqua;
+}
+.special{
+    color: green !important ;
+}
+.special{
+    color: yellow;
+}
+h1{
+    color: navy;
+    text-align: center;
+}
+p{
+    color: palevioletred;
+    text-align: left;
+    
+}
+
+/* id selector */
+#blacked{
+    color: red;
+    text-align: center;
+}
+/* attribute selector*/
+a[href="google"][target="_blank"]{
+    color: yellow;
+}
+
+a[href="youtube.com"]{
+    color: pink;
+}
+span,em{
+    color: black;
+}
+li{
+    list-style: disc;
+    color: crimson;
+}
+/* Descendent selector-> It selects all its descendents */ 
+li li{
+    color: yellow;
+}
+div span{
+    color:aqua;
+    background-color: black;
+}
+/* child selectors-> It selects on its children */
+div > span{
+    color: tomato;
+    background-color: pink;
+}
+/* Adjacent sibling selector(+)-> selcts the next sibling only */
+h1+p{
+    background-color: blue;
+}
+/* General sibling selector(~)-> selects all the siblings next to it*/
+h4~p{
+    background-color: navy;
+}
+
